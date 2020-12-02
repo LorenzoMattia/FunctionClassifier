@@ -35,7 +35,7 @@ def main():
     elif(model == "randomForest"):
         clf = RandomForestClassifier()
         
-    with open("C:\\Users\\Lorenzo\\Documents\\Didattica Uni\\ArtificialIntelligenceRobotics\\Primo anno\\MachineLearning\\FunctionClassificationHomework\\noduplicatedataset.json", 'r') as f:
+    with open("pathToDataset", 'r') as f:
         lines = f.readlines()
         for item in lines:
             dfeature = []
