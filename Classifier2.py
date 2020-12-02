@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
 
 vectorizer = CountVectorizer()
-dataset = pd.read_json("C:\\Users\\Lorenzo\\Documents\\Didattica Uni\\ArtificialIntelligenceRobotics\\Primo anno\\MachineLearning\\FunctionClassificationHomework\\noduplicatedataset.json", lines = True)
+dataset = pd.read_json("pathToDataset", lines = True)
 X = vectorizer.fit_transform(dataset.lista_asm)
 
 #choose the model you want to use
@@ -45,7 +45,7 @@ pickle.dump(clf, open(filename, 'wb'))
 #blind test
 execBlind = input('Do you want to execute the blind test? y/n')
 if (execBlind == 'y' or execBlind == 'Y'):
-    blindtest = pd.read_json("C:\\Users\\Lorenzo\\Documents\\Didattica Uni\\ArtificialIntelligenceRobotics\\Primo anno\\MachineLearning\\FunctionClassificationHomework\\blindtest.json", lines = True)
+    blindtest = pd.read_json("pathToBlindTest", lines = True)
 
     blindlist = []
     for row in blindtest.itertuples():
