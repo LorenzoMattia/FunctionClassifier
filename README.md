@@ -5,7 +5,7 @@ In the "Classifier2.py" file , with which I obtained best results the classifier
 
 ## Introduction
 
-The aim of the homework was to solve a classification problem using a machine learning approach. Each instance in the given dataset is a function that can belong to one of the identified classes: encryption, math, sort, string. In particular each function in the dataset is represented through a dictionary in which, under the key “lista_asm”, there is the list of the assembly instructions of that function.
+The aim of this project was to solve a classification problem using a machine learning approach. Each instance in the given dataset is a function that can belong to one of the identified classes: encryption, math, sort, string. In particular each function in the dataset is represented through a dictionary in which, under the key “lista_asm”, there is the list of the assembly instructions of that function.
 To solve this problem, the main technologies I have used are:
 - Various modules belonging to the scikit learn library
 - The networkx library for handling graphs features
