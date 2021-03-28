@@ -32,7 +32,7 @@ As I said before, the two machine learning models I’ve taken in account have b
 ## SVM
 The results of the prediction made by the SVM model are:
 Accuracy: 0.756 (for this execution)
-![image](https://user-images.githubusercontent.com/63303421/112752656-53ff2180-8fd4-11eb-9709-698d4fb599ac.png)
+
 ### Comments
 From the confusion matrix is easy to derive the following data:
 - Precision average = 0.765
@@ -47,7 +47,6 @@ From which the average and standard deviation: Accuracy: 0.760 (+/- 0.01)
 
 ## Random Forest
 The resuls of the prediction made by the Random Forest model are: Accuracy: 0.908
-![image](https://user-images.githubusercontent.com/63303421/112752692-890b7400-8fd4-11eb-8526-9998228edf56.png)
 
 ### Comments
 From the Confusion matrix:
@@ -74,7 +73,7 @@ For the first trial with this pre processing approach I tried to use the CountVe
 
 ## SVM
 The results of the prediction made by the SVM model are: Accuracy: 0.979
-![image](https://user-images.githubusercontent.com/63303421/112752732-b35d3180-8fd4-11eb-9316-19d6cc121e5e.png)
+
 ### Comments
 From the Confusion matrix:
 - Precision average = 0.967
@@ -86,10 +85,9 @@ Accuracy: 0.983 (+/- 0.01)
 ## Random Forest
 The resuls of the prediction made by the Random Forest model are:
 Accuracy: 0.985
-![image](https://user-images.githubusercontent.com/63303421/112752756-cec83c80-8fd4-11eb-9bb1-31dbb4cb6b68.png)
 
 ### Comments
-From the first table:
+From the Confusion Matrix:
 - Precision average = 0.985
 - Recall average = 0.973
 - F1-score average = 0.979
