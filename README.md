@@ -42,7 +42,7 @@ Thus, this machine learning model has a non exciting capacity of avoiding to pre
 attention to the sort class prediction. In fact, from the confusion matrix it is possible to see how the system seems to be not able to distinguish well sort samples from math and string ones (math in particular).
 Looking at the f1-score average, which should be a good indicator of the system validity, it is possible to say that this system should be drastically improved.
 As a last evaluation of the system I also run the k-cross validation on five different executions.
-Accuracy values obtained in the five executions: [0.75631175 0.77332602 0.75631175 0.75246981 0.76344676] 
+Accuracy values obtained in the five executions: [0.75631175 0.77332602 0.75631175 0.75246981 0.76344676].
 From which the average and standard deviation: Accuracy: 0.760 (+/- 0.01)
 
 ## Random Forest
@@ -55,7 +55,7 @@ From the Confusion matrix:
 - F1-score average = 0.883
 I chosed to use Random Forest for my second trial because it should be resistent to outliers and because I thought that its procedure for deriving patterns from the dataset could be suitable for this problem.Analyzing the results obtained: it is evident that with this model the system has experienced a drastic improvement with respect to the previois one. High values for the averages of precision and recall allows to say that the system has a good capabilty of predicting samples as they real class.
 The worst result is still obtained in sort classification, and in particular in its recall. In fact even if the number of sort samples predicted as other classes is about halved with respect to the linear SVM, there is still a 30% of sort samples wrongly predicted.
-From the K-Cross Validation: [0.91108672 0.9143798 0.91712404 0.91986828 0.91492865]
+From the K-Cross Validation: [0.91108672 0.9143798 0.91712404 0.91986828 0.91492865].
 Accuracy: 0.915 (+/- 0.01)
 
 ## Considerations
@@ -79,7 +79,7 @@ From the Confusion matrix:
 - Precision average = 0.967
 - Recall average = 0.964
 - F1-score average = 0.966 
-From the K-Cross Validation [0.97969265 0.98133919 0.98737651 0.98024149 0.98518112] 
+From the K-Cross Validation [0.97969265 0.98133919 0.98737651 0.98024149 0.98518112]. 
 Accuracy: 0.983 (+/- 0.01) 
 
 ## Random Forest
@@ -91,7 +91,7 @@ From the Confusion Matrix:
 - Precision average = 0.985
 - Recall average = 0.973
 - F1-score average = 0.979
-From the K-Cross Validation: [0.98298573 0.98792536 0.9884742 0.98682766 0.9895719] 
+From the K-Cross Validation: [0.98298573 0.98792536 0.9884742 0.98682766 0.9895719].
 Accuracy: 0.987 (+/- 0.0045)
 
 ## Considerations 
